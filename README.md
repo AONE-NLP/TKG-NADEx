@@ -49,3 +49,7 @@ python src/main_NADEx.py --test --dataset GDELT --refinements_radio 2.0 --seen_a
 
 ## Acknowledge
 The code of [DiffuRec](https://github.com/AONE-NLP/DiffuTKG), [DiffuTKG](https://github.com/AONE-NLP/DiffuTKG).
+
+## Contact
+If you have any questions or suggestions, feel free to contact:
+- [Yanglei Gan](https://scholar.google.com/citations?user=Pa2bAlAAAAAJ&hl=en) (yangleigan@std.uestc.edu.cn)
