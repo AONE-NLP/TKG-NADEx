@@ -25,27 +25,27 @@ First unzip the data files in the `data` directory, and then run `src/unseen_eve
 
 ## Train and Evaluate
 ```
-python src/main_NADEx.py --dataset ICEWS14 --lamda 0.6
-python src/main_NADEx.py --dataset ICEWS14 --test --pattern_noise_radio 2.0 --refinements_radio 1.5 --seen_addition
+python src/main_NADEx.py --dataset ICEWS14 
+python src/main_NADEx.py --dataset ICEWS14 --test --pattern_noise_radio 2.0 --seen_addition --refinements_radio 1.5
 ```
 
 ```
 python src/main_NADEx.py --dataset ICEWS18
-python src/main_NADEx.py --dataset ICEWS18 --refinements_radio 2.0 --seen_addition --test --pattern_noise_radio 2.0
+python src/main_NADEx.py --dataset ICEWS18 --test --refinements_radio 2.0 --seen_addition --pattern_noise_radio 2.0
 ```
 
 ```
-python src/main_NADEx.py --dataset ICEWS05_15 --lr 5e-4
-python ./src/main_NADEx.py --dataset ICEWS14 --refinements_radio 2.0 --seen_addition --test --pattern_noise_radio 0.5
+python src/main_NADEx.py --dataset ICEWS05_15 
+python ./src/main_NADEx.py --dataset ICEWS14 --test --refinements_radio 2.0 --seen_addition --pattern_noise_radio 0.5
 ```
 
 ```
-python src/main_NADEx.py --dataset GDELT --lr 5e-4
-python src/main_NADEx.py --test --pattern_noise_radio 2.5 --dataset GDELT --refinements_radio 2.0 --seen_addition --test --pattern_noise_radio 2.5
+python src/main_NADEx.py --dataset GDELT --lr
+python src/main_NADEx.py --test --dataset GDELT --refinements_radio 2.0 --seen_addition --pattern_noise_radio 2.5
 ```
 
 ## Citation
 
 
 ## Acknowledge
-The code of [DiffuRec](https://github.com/AONE-NLP/DiffuTKG)
+The code of [DiffuRec](https://github.com/AONE-NLP/DiffuTKG), [DiffuTKG](https://github.com/AONE-NLP/DiffuTKG).
