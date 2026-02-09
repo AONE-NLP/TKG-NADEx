@@ -2,6 +2,8 @@
 
 Official Pytorch implementation of our EACL'2026 paper: Negative-Aware Diffusion Process for Temporal Knowledge Graph Extrapolation.
 
+![](images/model.png)
+
 
 ## Requirements
 ```
