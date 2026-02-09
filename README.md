@@ -1,6 +1,6 @@
-# NADEx -main
+# Negative-Aware Diffusion Process for Temporal Knowledge Graph Extrapolation
 
-## Overview
+Official Pytorch implementation of our EACL'2026 paper: Negative-Aware Diffusion Process for Temporal Knowledge Graph Extrapolation.
 
 
 ## Requirements
@@ -18,10 +18,6 @@ torch_scatter==2.0.9
 tqdm==4.65.0
 transformers==4.20.1
 ```
-
-## Data preparation
-References for access to relevant data: https://github.com/AONE-NLP/DiffuTKG
-First unzip the data files in the `data` directory, and then run `src/unseen_event.py` and `src/tri2seq.py`.
 
 ## Train and Evaluate
 ```
