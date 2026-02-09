@@ -6,8 +6,7 @@
 ## Requirements
 ```
 dgl==1.1.2
-dgl==1.1.2+cu117 https://pypi.tuna.tsinghua.edu.cn/simple/dgl-cu112/
-pip install dgl==1.1.2+cu117 -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+dgl==1.1.2+cu117 
 fitlog==0.9.15
 info_nce_pytorch==0.1.4
 numpy==1.24.4
@@ -18,7 +17,6 @@ torch==1.13.1+cu117
 torch_scatter==2.0.9
 tqdm==4.65.0
 transformers==4.20.1
--i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 ```
 
 ## Data preparation
