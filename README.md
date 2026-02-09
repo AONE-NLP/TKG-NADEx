@@ -19,6 +19,10 @@ tqdm==4.65.0
 transformers==4.20.1
 ```
 
+## Data preparation
+
+First unzip the data files in the `data` directory, and then run `src/unseen_event.py` and `src/tri2seq.py`.
+
 ## Train and Evaluate
 ```
 python src/main_NADEx.py --dataset ICEWS14 --lamda 0.6
